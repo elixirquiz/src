@@ -4,6 +4,7 @@
     <title>Elixir Quiz | Weekly programming problems to help you learn Elixir</title>
     <%= @css %>
     <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu|Rock+Salt' rel='stylesheet' type='text/css'>
     <%= @js %>
   </head>
 
@@ -16,9 +17,9 @@
             <h2>Weekly programming problems to help you learn Elixir</h2>
           </div>
           <div class="four columns omega pull-right links">
-            <a href="http://twitter.com/elixirquiz"><i class="fa fa-twitter-square fa-3x"></i></a>
+            <a href="http://twitter.com/elixir_quiz"><i class="fa fa-twitter-square fa-3x"></i></a>
             <a href="http://reddit.com/r/elixirquiz"><i class="fa fa-reddit-square fa-3x"></i></a>
-            <a href="rss.xml"><i class="fa fa-rss-square fa-3x"></i></a>
+            <!-- <a href="rss.xml"><i class="fa fa-rss-square fa-3x"></i></a> -->
           </div>
         </div>
       </div>
@@ -34,10 +35,10 @@
           <div class="sidebar-item">
             <h3><i class="fa fa-code-fork"></i>&nbsp;Contributing</h3>
             <p>
-              Programming problems contributed by the community are not only possible, but encouraged. If you have an interesting problem that you'd like to submit, please create a fork of <a href="https://github.com/elixirquiz/elixirquiz">the Elixir Quiz repository</a> and submit a pull request with a new draft.
+              Programming problems contributed by the community are not only possible, but encouraged. If you have an interesting problem that you'd like to submit, please create a fork of <a href="https://github.com/elixirquiz/src">the Elixir Quiz source repository</a> and submit a pull request with a new draft.
             </p>
             <p>
-              For more information, see the <a href="https://github.com/elixirquiz/elixirquiz/CONTRIBUTING">CONTRIBUTING</a> document.
+              For more information, see the <a href="https://github.com/elixirquiz/src/blob/master/CONTRIBUTING.md">CONTRIBUTING</a> document.
             </p>
           </div>
         </div>

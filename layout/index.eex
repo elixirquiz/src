@@ -1,14 +1,18 @@
 <div class="index">
-  <%= Enum.join(@content, "
+  <h1>Problems</h1>
+  <div class="row">
+    <%= Enum.join(@content, "
 ") %>
-
-  <div class="index-nav">
-    <div class="four columns alpha">
-      <%= @prev %> &nbsp;
-    </div>
-    <div class="four columns">&nbsp;</div>
-    <div class="four columns omega pull-right">
-      <%= @next %> &nbsp;
+  </div>
+  <div class="row">
+    <div class="index-nav">
+      <div class="four columns alpha">
+        <%= @prev %> &nbsp;
+      </div>
+      <div class="four columns">&nbsp;</div>
+      <div class="four columns omega pull-right">
+        <%= @next %> &nbsp;
+      </div>
     </div>
   </div>
 </div>
