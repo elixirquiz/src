@@ -1,0 +1,29 @@
+---
+title: FizzBuzz
+---
+
+Welcome to the first ever Elixir Quiz problem. This week we will be tackling the classic interview question, FizzBuzz.
+
+## About FizzBuzz
+
+## The problem
+
+The FizzBuzz problem is fairly straight forward.
+
+Print the numbers from 1 to 100, replacing multiples of 3 with the word "Fizz" and multiples of 5 with the word "Buzz". For numbers that are divisible by 3 and 5, replace the number with the word "FizzBuzz".
+
+So for example, 1 to 15 would look like:
+
+1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz
+
+## How do I enter?
+
+To enter, just complete the problem and post the code to [our subreddit](http://reddit.com/r/elixirquiz). For short solutions, you can put the code directly into your comment in the quiz thread.
+
+For larger solutions, please host your code elsewhere and link to it.
+
+[GitHub gists](https://gist.github.com) can be useful for hosting your solutions, but anywhere is fine.
+
+## Example solutions
+
+After the quiz period ends on 17-08-2014, I will update this section and talk about some interesting solutions that were posted to [our subreddit](http://reddit.com/r/elixirquiz)

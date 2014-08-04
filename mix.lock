@@ -1,5 +1,5 @@
 %{"chronos": {:git, "git://github.com/nurugger07/chronos.git", "28ebaf433ae7bf605fecf665ad6b92d80eda2e2a", []},
   "hoedown": {:git, "git://github.com/hoedown/hoedown.git", "0610117f44b173a4e2112afb2f510156a32355b5", []},
   "markdown": {:git, "git://github.com/devinus/markdown.git", "7b1912a693611a9445574e099687879948bafbae", []},
-  "obelisk": {:git, "file:///home/benny/projects/obelisk", "0b7efc1f6030c7cc914ffae92c7fecee74a59439", []},
+  "obelisk": {:git, "file:///home/benny/projects/obelisk", "2ca60b4fd9a7f46205f22a999e2c58be8da4d7bb", []},
   "yamerl": {:git, "git://github.com/yakaz/yamerl.git", "6d57c3945af916f0c3b248cc3ec0eb51eea78a74", []}}
