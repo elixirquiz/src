@@ -17,8 +17,8 @@
             <h2>Weekly programming problems to help you learn Elixir</h2>
           </div>
           <div class="four columns omega pull-right links">
-            <a href="http://twitter.com/elixir_quiz"><i class="fa fa-twitter-square fa-3x"></i></a>
-            <a href="http://reddit.com/r/elixirquiz"><i class="fa fa-reddit-square fa-3x"></i></a>
+            <a href="http://twitter.com/elixir_quiz"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="http://reddit.com/r/elixirquiz"><i class="fa fa-reddit fa-2x"></i></a>
             <!-- <a href="rss.xml"><i class="fa fa-rss-square fa-3x"></i></a> -->
           </div>
         </div>

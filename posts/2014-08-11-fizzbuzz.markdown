@@ -1,0 +1,37 @@
+---
+title: FizzBuzz
+---
+
+Welcome to the first ever Elixir Quiz problem. This week we will be tackling the classic interview question, FizzBuzz.
+
+### About FizzBuzz
+
+I first heard about this problem several years ago while reading [a blog post on Coding Horror](http://blog.codinghorror.com/why-cant-programmers-program/). Since then I, [as well as many other programmers I'm sure](http://en.wikipedia.org/wiki/Fizz_buzz#Other_uses), have used the problem to start learning new languages, as code kata, and as interview questions.
+
+The problem is often chosen as an interview question as it's quite simple to implement, either as hand written psudocode or executable code. This makes it a good choice to filter out candidates who have little to no programming experience.
+
+Since some of us will be using [Elixir Quiz](http://elixirquiz.github.io) to take our first steps into the [Elixir](http://elixir-lang.org) language, it makes sense to start with something simple and well understood.
+
+### The problem
+
+The FizzBuzz problem is fairly straight forward.
+
+> Print the numbers from 1 to 100, replacing multiples of 3 with the word "Fizz" and multiples of 5 with the word "Buzz". For numbers that are divisible by 3 and 5, replace the number with the word "FizzBuzz".
+
+So for example, 1 to 15 would look like:
+
+> 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz
+
+### How do I enter?
+
+The FizzBuzz quiz runs from Monday August 11th 2014 until Sunday August 17th, 2014.
+
+To enter, just complete the problem and post the code to [our subreddit](http://reddit.com/r/elixirquiz). For short solutions, you can put the code directly into your comment in the quiz thread.
+
+For larger solutions, please host your code elsewhere and link to it.
+
+[GitHub gists](https://gist.github.com) can be useful for hosting your solutions, but anywhere is fine.
+
+### Example solutions
+
+After the quiz period ends on August 17th, I will update this section and talk about some interesting solutions that were posted to [our subreddit](http://reddit.com/r/elixirquiz)
