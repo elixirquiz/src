@@ -1,3 +1,4 @@
 ---
-name: A brand new static site
-
+name: Elixir Quiz
+url: http://elixirquiz.github.io
+description: Weekly programming problems to help you learn Elixir

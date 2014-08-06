@@ -1,14 +1,15 @@
 ---
 title: FizzBuzz
+description: "For our first problem, we tackle the classic interview question: FizzBuzz."
 ---
 
 Welcome to the first ever Elixir Quiz problem. This week we will be tackling the classic interview question, FizzBuzz.
 
 ### About FizzBuzz
 
-I first heard about this problem several years ago while reading [a blog post on Coding Horror](http://blog.codinghorror.com/why-cant-programmers-program/). Since then I, [as well as many other programmers I'm sure](http://en.wikipedia.org/wiki/Fizz_buzz#Other_uses), have used the problem to start learning new languages, as code kata, and as interview questions.
+I first heard about this problem several years ago while reading [a blog post on Coding Horror](http://blog.codinghorror.com/why-cant-programmers-program/). Since then I, [as well as many other programmers I am sure](http://en.wikipedia.org/wiki/Fizz_buzz#Other_uses), have used the problem to start learning new languages, as code kata, and as interview questions.
 
-The problem is often chosen as an interview question as it's quite simple to implement, either as hand written psudocode or executable code. This makes it a good choice to filter out candidates who have little to no programming experience.
+The problem is often chosen as an interview question as it is quite simple to implement, either as hand written psudocode or executable code. This makes it a good choice to filter out candidates who have little to no programming experience.
 
 Since some of us will be using [Elixir Quiz](http://elixirquiz.github.io) to take our first steps into the [Elixir](http://elixir-lang.org) language, it makes sense to start with something simple and well understood.
 
@@ -16,7 +17,7 @@ Since some of us will be using [Elixir Quiz](http://elixirquiz.github.io) to tak
 
 The FizzBuzz problem is fairly straight forward.
 
-> Print the numbers from 1 to 100, replacing multiples of 3 with the word "Fizz" and multiples of 5 with the word "Buzz". For numbers that are divisible by 3 and 5, replace the number with the word "FizzBuzz".
+> Print the numbers from 1 to 100, replacing multiples of 3 with the word Fizz and multiples of 5 with the word Buzz. For numbers that are divisible by 3 and 5, replace the number with the word FizzBuzz.
 
 So for example, 1 to 15 would look like:
 

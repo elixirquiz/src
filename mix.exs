@@ -13,7 +13,7 @@ defmodule ElixirQuiz.Mixfile do
   end
 
   defp deps do
-    [{:obelisk, "0.2.1"},
+    [{:obelisk, "0.3.0"},
      {:yamerl, github: "yakaz/yamerl"}]
   end
 end
