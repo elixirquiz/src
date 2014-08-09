@@ -25,7 +25,7 @@ So for example, 1 to 15 would look like:
 
 ### How do I enter?
 
-The FizzBuzz quiz runs from Monday August 11th 2014 until Sunday August 17th, 2014.
+The FizzBuzz quiz runs from Saturday August 9th 2014 until Friday August 15th, 2014.
 
 To enter, just complete the problem and post the code to [our subreddit](http://reddit.com/r/elixirquiz). For short solutions, you can put the code directly into your comment in the quiz thread.
 
@@ -35,4 +35,4 @@ For larger solutions, please host your code elsewhere and link to it.
 
 ### Example solutions
 
-After the quiz period ends on August 17th, I will update this section and talk about some interesting solutions that were posted to [our subreddit](http://reddit.com/r/elixirquiz)
+After the quiz period ends on August 15th, I will update this section and talk about some interesting solutions that were posted to [our subreddit](http://reddit.com/r/elixirquiz)
