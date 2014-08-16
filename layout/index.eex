@@ -1,7 +1,7 @@
 <div class="index">
   <h1>Problems</h1>
   <div class="row">
-    <%= Enum.join(@content, "
+    <%= Enum.join(@content, "<br />
 ") %>
   </div>
   <div class="row">
