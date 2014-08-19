@@ -35,4 +35,57 @@ For larger solutions, please host your code elsewhere and link to it.
 
 ### Example solutions
 
-After the quiz period ends on August 15th, I will update this section and talk about some interesting solutions that were posted to [our subreddit](http://reddit.com/r/elixirquiz)
+We got 3 solutions for this problem. 
+
+* [im_pragdave](http://www.reddit.com/r/elixirquiz/comments/2d18d1/20140809_fizzbuzz/cjlj8q7)
+* [@jlind](https://gist.github.com/behe/4dd260a65e81132a3d90)
+* [@bennyhallett](https://gist.github.com/BennyHallett/00ea5440efb7d35a4b18)
+
+Two of the solutions involved defining a function with 4 separate guard clauses defining what string should be returned when a number is divisible by 15, 5, 3, or none of those.
+
+    def transform(value) when rem(value, 15) == 0, do: "FizzBuzz"
+    def transform(value) when rem(value, 3) == 0, do: "Fizz"
+    def transform(value) when rem(value, 5) == 0, do: "Buzz"
+    def transform(value), do: value
+
+With the `transform/1` function defined, both solutions took a range of number and mapped that range to this function.
+
+    def up_to(n) do
+      1..n
+      |> Enum.to_list
+      |> Enum.map(&transform/1)
+      |> Enum.join " "
+    end
+
+The other solution took a different approach, using two cycling Streams, zipping them, and transforming the result into the correct value using `Stream.with_index/1`.
+
+    defmodule FizzBuzz do
+
+      @doc """
+      Print the FizzBuzz sequence from 1 to `n`
+
+      ## Example
+
+          iex> FixxBuzz.up_to 20
+          1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 Fizz Buzz 16 17 Fizz 19 Buzz
+      """
+
+      def up_to(n) do
+        fizzbuzz_stream |> Enum.take(n) |> Enum.join |> IO.puts
+      end
+
+      @doc """
+      Return a stream of FizzBuzz values
+      """
+      def fizzbuzz_stream do
+        threes = Stream.cycle [ nil, nil, "Fizz " ]
+        fives  = Stream.cycle [ nil, nil, nil, nil, "Buzz " ]
+        Stream.zip(threes, fives) |> Stream.with_index |> Stream.map(&speak/1)
+      end
+
+      defp speak({{nil,  nil},  n}), do: "#{n+1} "
+      defp speak({{fizz, buzz}, _}), do: "#{fizz}#{buzz}"
+
+    end
+
+Out of interest, I thought it'd be interesting to see how each of the solutions performed on the range `1..1000`.
