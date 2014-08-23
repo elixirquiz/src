@@ -17,7 +17,7 @@ Height maps are popular in video games, for storing terrain data. They are heavi
 
 > Write a program that takes a single number (A) as input, and produces a randomly generated heightmap in an AxA grid. Output can take any form, such as ascii or a bitmap.
 
-The choice of algorithm is up to you. Some algorithms that are commonly used are [the diamond-square algorithm](http://en.wikipedia.org/wiki/Diamond-square_algorithm) and [the perlin noise algorightm](http://en.wikipedia.org/wiki/Perlin_noise).
+The choice of algorithm is up to you. Some algorithms that are commonly used are [the diamond-square algorithm](http://en.wikipedia.org/wiki/Diamond-square_algorithm) and [the perlin noise algorithm](http://en.wikipedia.org/wiki/Perlin_noise).
 
 ### Example Output
 
