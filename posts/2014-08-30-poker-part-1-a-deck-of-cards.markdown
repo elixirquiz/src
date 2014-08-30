@@ -3,13 +3,13 @@ title: "Poker part 1: A deck of cards"
 description: "In this edition of Elixir Quiz, we start work on our first multi week project, building a game of poker"
 ---
 
-Welcome to the fourth insallment of Elixir Quiz. This week, we embark on our first multi-week project, building a game of 5 card stud poker. This week we will be building the deck of cards.
+Welcome to the fourth insallment of Elixir Quiz. This week, we embark on our first multi-week project, building a game of 5 card draw poker. This week we will be building the deck of cards.
 
-### An introduction to 5 card stud
+### An introduction to 5 card draw
 
-5 card stud is a card game in which players play against each other.
+5 card draw is one of the simplest variations of poker. It is the game that was most likely been to have been played in people's homes up until the rise in popularity of Texas Hold'em.
 
-At the start of the game, each player is dealt 5 cards face down. After assessing their initial hands, players take turns discarding any of their cards and receiving replacements for them.
+The game begins with each player being dealt 5 cards face down. After each player is dealt their cards, they then assess their initial hands. Players take turns discarding any of their cards and receiving replacements.
 
 Players then compare their hands against one another to determine the winning hand.
 
@@ -19,9 +19,9 @@ If you haven't explored testing with ExUnit yet, the poker project provides a gr
 
 ### The problem
 
-> Create a module that will allow us to create a shuffled deck of cards. How the cards and deck are represented are completely up to you.
+> Create a module that will allow us to create a shuffled deck of cards. The deck should contain the 52 cards included in a regular deck. How the cards and deck are represented are completely up to you.
 
-> Since we're working with the cards this week, also ensure that you have a function to compare the value of 2 individual cards.
+> Since we're working with the cards this week, also ensure that you have a function to compare the value of 2 individual cards. Card values, in high -> low order, are `Ace, King, Queen, Jack, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1`
 
 ### How do I enter?
 
