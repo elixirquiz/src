@@ -3,6 +3,7 @@
   <head>
     <title>Elixir Quiz | Weekly programming problems to help you learn Elixir</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= @css %>
     <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css" />
     <link href='http://fonts.googleapis.com/css?family=Ubuntu|Rock+Salt|Share+Tech+Mono' rel='stylesheet' type='text/css'>
