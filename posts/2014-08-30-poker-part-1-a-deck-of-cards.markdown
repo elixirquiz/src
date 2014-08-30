@@ -7,15 +7,15 @@ Welcome to the fourth insallment of Elixir Quiz. This week, we embark on our fir
 
 ### An introduction to 5 card draw
 
-5 card draw is one of the simplest variations of poker. It is the game that was most likely been to have been played in people's homes up until the rise in popularity of Texas Hold'em.
+[5 card draw](http://en.wikipedia.org/wiki/Five-card_draw) is one of the simplest variations of poker. It is the game that was most likely been to have been played in people's homes up until the rise in popularity of [Texas Hold'em](http://en.wikipedia.org/wiki/Texas_hold_'em).
 
 The game begins with each player being dealt 5 cards face down. After each player is dealt their cards, they then assess their initial hands. Players take turns discarding any of their cards and receiving replacements.
 
 Players then compare their hands against one another to determine the winning hand.
 
-For our first step, we will build ourselves a deck of cards.
+For our first step, we will build ourselves a [deck of cards](http://en.wikipedia.org/wiki/Standard_52-card_deck).
 
-If you haven't explored testing with ExUnit yet, the poker project provides a great opportunity to start.
+If you haven't explored testing with [ExUnit](http://elixir-lang.org/docs/stable/ex_unit/ExUnit.html) yet, the poker project provides a great opportunity to start.
 
 ### The problem
 
