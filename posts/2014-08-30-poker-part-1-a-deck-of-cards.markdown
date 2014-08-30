@@ -3,11 +3,11 @@ title: "Poker part 1: A deck of cards"
 description: "In this edition of Elixir Quiz, we start work on our first multi week project, building a game of poker"
 ---
 
-Welcome to the fourth insallment of Elixir Quiz. This week, we embark on our first multi-week project, building a game of 5 card draw poker. This week we will be building the deck of cards.
+Welcome to the fourth installment of Elixir Quiz. This week, we embark on our first multi-week project, building a game of 5 card draw poker. This week we will be building the deck of cards.
 
 ### An introduction to 5 card draw
 
-[5 card draw](http://en.wikipedia.org/wiki/Five-card_draw) is one of the simplest variations of poker. It is the game that was most likely been to have been played in people's homes up until the rise in popularity of [Texas Hold'em](http://en.wikipedia.org/wiki/Texas_hold_'em).
+[5 card draw](http://en.wikipedia.org/wiki/Five-card_draw) is one of the simplest variations of poker. It is the game that is most likely to have been played in people's homes up until the rise in popularity of [Texas Hold'em](http://en.wikipedia.org/wiki/Texas_hold_'em).
 
 The game begins with each player being dealt 5 cards face down. After each player is dealt their cards, they then assess their initial hands. Players take turns discarding any of their cards and receiving replacements.
 
