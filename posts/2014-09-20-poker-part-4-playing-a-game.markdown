@@ -21,7 +21,7 @@ For our game we can ignore the betting portion of the game (unless you really wa
 
 ### How do I enter?
 
-The Poker part 4 quiz runs from Saturday September 20th 2014 until Friday September 26th, 2014.
+The Poker part 7 quiz runs from Saturday September 20th 2014 until Friday September 26th, 2014.
 
 To enter, just complete the problem and post the code to [our subreddit](http://reddit.com/r/elixirquiz). Add this code to your existing poker project.
 
