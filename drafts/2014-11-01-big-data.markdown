@@ -1,0 +1,44 @@
+---
+title: Big(ish) Data
+description: "In this edition of Elixir Quiz, we will attempt to efficiently process a large amount of data."
+---
+
+Welcome to the thirteenth edition of Elixir Quiz. This week we will be generating a large log file, and trying to process it efficiently.
+
+### Efficient log processing
+
+The [Wikipedia definition](http://en.wikipedia.org/wiki/Big_data) of big data is:
+
+> Big data is an all-encompassing term for any collection of data sets so large and complex that it becomes difficult to process using traditional data processing applications.
+
+In this weeks quiz, we will be taking a large(ish) set of data in the form of a log file, and attempting to parse and interpret it quickly. Given that most of us will be using a single PC with 2-4 cores, we won't necesserily be at *big data* scale, but keep this in mind when building the solution, and look to use techniques that could scale across many nodes, for files in the terabyte range.
+
+When solving this problem, we can reduce our runtime by spreading the load across multiple processes. Most systems these days have at least 2 or 4 cores, so we can effectively cut our runtime down by half or a quarter just by segmenting our data and processing it in parallel. Furthermore, using OTP we could potentially do our processing on multiple nodes, across multiple hosts, which may imprrove processing speed even more.
+
+Combining this technique with smart algorithms means that we can perform complex calculations fast.
+
+Can you process this 250MB file in a matter of seconds?
+
+### The problem
+
+> Using the code shown, generate a log file to be processed. Assume that this log file is from our web application, and logs incoming requests across a single 24 hour period. It will generate a log file with entries in a pipe separated format `time|ip|method|resource`, with a single entry per line.
+It should generate a file that is around 250MB in size.
+
+    defmodule Logfile do
+      def generate(path) do
+
+      end
+    end
+
+> Write a module that loads the file, and determines the most active hour period of the day.
+
+### How do I enter?
+
+The Big Data quiz runs from Saturday November 1st 2014 until Friday November 7th, 2014.
+
+To enter, just complete the problem and post a link to the code on Twitter, and mention [@elixir_quiz](https://twitter.com/elixir_quiz). As always, you can host your code anywhere (like [Github Gists](https://gist.github.com/)), or post your solution directly into the subreddit post.
+
+### Example solutions
+
+After the quiz period ends on November 7th, I will update this section and talk about some interesting solutions that were posted on Twitter.
+
