@@ -19,7 +19,7 @@ The game takes place on a 3x3 grid, with players taking turns placing their toke
 
 Remember that we're planning on expanding this into a larger, multi-user system. We will eventually want to have many different games running simultaneously, so having a game run as a process, with connected processes for each player may be a good idea.
 
-For reference on how a miltiplayer game can hang together in an OTP application, check out Martin Schurrer's [talk at ElixirConf 2014.](http://www.confreaks.com/videos/4131-elixirconf2014-otp-in-production-the-nitty-gritty-details-of-game-servers)
+For reference on how a multiplayer game can hang together in an OTP application, check out Martin Schurrer's [talk at ElixirConf 2014.](http://www.confreaks.com/videos/4131-elixirconf2014-otp-in-production-the-nitty-gritty-details-of-game-servers)
 
 ### How do I enter?
 
