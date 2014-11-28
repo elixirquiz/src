@@ -1,9 +1,11 @@
 <div class="index">
   <h1>Problems</h1>
-  <div class="row">
-    <%= Enum.join(@content, "<br />
-") %>
-  </div>
+  <%= Enum.map @content, fn(post) ->
+    """
+    #{post.content}
+    <hr class="post-base" />
+    """
+  end %>
   <div class="row">
     <div class="index-nav">
       <div class="four columns alpha">

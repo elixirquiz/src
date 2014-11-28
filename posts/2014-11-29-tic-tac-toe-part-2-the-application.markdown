@@ -12,7 +12,19 @@ server to manage several games at once.
 
 ### Supervision Trees
 
+The official [Erlang
+documentation](http://www.erlang.org/doc/man/supervisor.html) describes
+supervisors as:
 
+> a process which supervises other processes called child processes. A child
+> process can either be another supervisor or a worker process.
+
+> Supervisors are used to build an hierarchical process structure called a
+> supervision tree, a nice way to structure a fault tolerant application.
+
+For more information, see the [OTP design
+principles](http://www.erlang.org/doc/design_principles/des_princ.html)
+document.
 
 ### The problem
 

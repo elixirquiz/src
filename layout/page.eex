@@ -1,0 +1,4 @@
+<div id="post">
+  <h2><%= @frontmatter.title %></h2>
+  <%= @content %>
+</div>

@@ -2,3 +2,4 @@
 name: Elixir Quiz
 url: http://elixirquiz.github.io
 description: Weekly programming problems to help you learn Elixir
+posts_per_page: 3

@@ -1,5 +1,9 @@
-%{"chronos": {:package, "0.3.5"},
-  "earmark": {:package, "0.1.8"},
-  "obelisk": {:package, "0.4.0"},
-  "rss": {:package, "0.2.0"},
+%{"chronos": {:hex, :chronos, "0.3.8"},
+  "cowboy": {:hex, :cowboy, "1.0.0"},
+  "cowlib": {:hex, :cowlib, "1.0.0"},
+  "earmark": {:hex, :earmark, "0.1.12"},
+  "obelisk": {:hex, :obelisk, "0.7.0"},
+  "plug": {:hex, :plug, "0.8.2"},
+  "ranch": {:hex, :ranch, "1.0.0"},
+  "rss": {:hex, :rss, "0.2.1"},
   "yamerl": {:git, "git://github.com/yakaz/yamerl.git", "a974d31325106fb4e8423e1af43e1dd9018d1218", []}}
