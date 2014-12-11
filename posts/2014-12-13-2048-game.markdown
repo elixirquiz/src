@@ -1,0 +1,40 @@
+---
+title: "2048 Game"
+description: "In this edition of Elixir Quiz, we will be creating a version of the game, 2048"
+---
+
+Welcome to the seventeenth edition of Elixir Quiz. This week we will be
+creating our own version of the game, 2048.
+
+### The 2048 Game
+
+[2048](http://gabrielecirulli.github.io/2048/) is a game that was created in
+2014 by developer [Gabriele Cirulli](https://github.com/gabrielecirulli), and is
+reminiscent of [Sliding Puzzle games](http://en.wikipedia.org/wiki/Sliding_puzzle).
+
+The game is played on a 4x4 grid, which is initially empty except for 2 randomly
+selected tiles, which have either a 2 or a 4 value in it. Players play the game
+by pushing all of the tiles in a specified direction; up, down, left or right.
+
+When tiles with matching values come into contact, they merge into one (the one furthest in the
+direction that was specified). The value of this new tile is the combined value
+of the tiles. After each turn, a new tile (either a 2 or a
+4) is generated in one of the free spaces.
+
+The player wins by creating a tile with the value 2048, and loses if the board
+is filled with tiles and no more moves are available.
+
+### The problem
+
+> Create the game of 2048. You can simply use the command line for output, or
+> build a web application if you're feeling ambitious.
+
+### How do I enter?
+
+The 2048 quiz runs from Saturday December 13th 2014 until Friday December 19th, 2014.
+
+To enter, just complete the problem and post a link to the code on Twitter, and mention [@elixir_quiz](https://twitter.com/elixir_quiz). As always, you can host your code anywhere (like [Github Gists](https://gist.github.com/)), or post your solution directly into the subreddit post.
+
+### Example solutions
+
+After the quiz period ends on December 19th, I will update this section and talk about some interesting solutions that were posted on Twitter.
