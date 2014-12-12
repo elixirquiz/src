@@ -33,7 +33,7 @@ is filled with tiles and no more moves are available.
 
 The 2048 quiz runs from Saturday December 13th 2014 until Friday December 19th, 2014.
 
-To enter, just complete the problem and post a link to the code on Twitter, and mention [@elixir_quiz](https://twitter.com/elixir_quiz). As always, you can host your code anywhere (like [Github Gists](https://gist.github.com/)), or post your solution directly into the subreddit post.
+To enter, just complete the problem and post a link to the code on Twitter, and mention [@elixir_quiz](https://twitter.com/elixir_quiz). As always, you can host your code anywhere (like [Github Gists](https://gist.github.com/)).
 
 ### Example solutions
 
